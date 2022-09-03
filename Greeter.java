@@ -17,6 +17,10 @@ public class Greeter {
   }
 
   public static void main(String[] args) {
+    //check the length of args in the main method
+    if(args.length != 3){
+      
+    }
     String language = args[0];
     String country = args[1];
     String name = args[2];
